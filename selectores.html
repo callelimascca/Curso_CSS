@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        span{
+            color: rgb(191, 44, 228);
+            font-size: 20px;
+            font-style: italic;
+            background-color: rgb(190, 212, 233);
+            padding:5px;
+            border: 4px solid rgb(147, 147, 229);
+            margin: 20px;
+        }
+        #text_red{
+            color: red;
+        }
+        .text_blue{
+            color: blue;
+        }
+        footer{
+            color: rgb(136, 136, 233);
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selectores en CSS</h1>
+        <nav>
+            <ul>
+                <a href="./index.html"><li>Indice</li></a>
+                <a href="./enlinea.html"><li>Estilos en linea</li></a>
+                <a href="./embebidos.html"><li>Estilos embebidos</li></a>
+                <a href="./selectores.html"><li>Selectores en CSS</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <span><b>aqui dare estilo con el selector de tipo etiqueta</b></span>
+        <p>uno</p>
+        <p id="text_red">dos</p> 
+        <!--solo llamando a este id colocamos el color para el-- no usar id para nada-->
+        <p class="text_blue">tres</p>
+        <nav id="text_red">soy etiqueta span y quiero cambiar de color</nav>
+        
+    </main>
+    <footer>
+        <h3>Derechos reservados &#174 Luna_Bella &copy Copyright - 2024</h3>
+    </footer>
+</body>
+</html>

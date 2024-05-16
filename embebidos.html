@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bloque</title>
+    <style> 
+        span{
+        color: blue;
+            }
+        aside{
+            background: green;
+            height: 20px;
+        }
+    </style> 
+<!--Renderizado --- accion que usa el navegador al leer un archivo HTML-->
+
 </head>
 <body>
     <header>
@@ -13,11 +24,32 @@
                 <a href="./index.html"><li>Indice</li></a>
                 <a href="./enlinea.html"><li>Estilos en linea</li></a>
                 <a href="./embebidos.html"><li>Estilos embebidos</li></a>
+                <a href="./selectores.html"><li>Selectores en CSS</li></a>
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h3>Descripcion</h3>
+            <p>hacer uso de esta tecnica es una mejor alternativa ya que hacemos uso de etiquetas <b>style</b> en la cabecera de nuestro documento y luego hacemos uso de referencia a traves de selectores para afectar los elementos <b>HTML</b></p>
+        </section>
+        <hr>
+        <section>
+            <h3>Ejemplos</h3>
+            <p>crearemos dos etiquetas de tipo bloque una con contenido y sin estilos y la otra sin contenido pero con estilos</p>
+            <li>
+                <span>Este ejmplo tenemos una etiqueta de tipo bloque <b>nav</b> con contenido pero sin estilos</span>
+            </li>
+            <nav>con contenido y sin estilo</nav>
+            <hr>
+            <li> 
+                <span>en este ejmp. tenemos una etiqueta de tipo bloque <b>nav</b> sin contenido pero con estilo</span>
+            </li>
+            <aside></aside>
+        </section>
+    </main> 
     <footer>
-        <h3>Derechos reservados &#174 Luna_Bella &copy Copyright - 2024</h3>
+        <h3 >Derechos reservados &#174 Luna_Bella &copy Copyright - 2024</h3>
     </footer>
 </body>
 </html>
