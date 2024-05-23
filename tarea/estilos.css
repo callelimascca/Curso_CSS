@@ -1,0 +1,79 @@
+.caja{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+article{
+    height: 100px;
+    width: 33%;
+    border-image-width:100%;
+}
+
+.extremos{
+    background: red;
+}
+.img{
+    max-width: 70%;
+    max-block-size: 13;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    display:block;
+    margin:auto;
+}
+
+.extremo_1{
+    background: black;
+}
+.extremo_2{
+    background: yellow;
+}
+.extremo_3{
+    background: red;
+}
+.img2{
+    max-width: 55%;
+    max-block-size: 13;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    display:block;
+    margin:auto;
+}
+
+
+.caja_uno{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background: blue;
+    article{
+        height: 85px;
+        width: 33%;
+    }
+    
+}
+.caja_ancha{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    article{
+        height: 65px;
+        width: 33%;
+    }
+}
+.caja_muy_ancha{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background: red;
+    article{
+        height: 75px;
+        width: 27%;
+    }
+}
