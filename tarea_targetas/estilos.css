@@ -23,7 +23,7 @@ p{
     border-radius: 10px;
     border-top-width: 10px;
 }
-.p1{
+.caja{
     background: white;
     width: 21%;
     height: 400px;
@@ -31,7 +31,7 @@ p{
     font-size: 28px;
     border-radius: 10px;
 }
-.p2{
+.caja2{
     background: white;
     width: 55.5%;
     height: 400px;
